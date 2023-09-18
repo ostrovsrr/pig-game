@@ -40,7 +40,7 @@ rollBtn.addEventListener('click', function () {
     return console.log('end');
   }
   rollDice();
-  dice.src = `dice-${number}.png`;
+  dice.src = `img/dice-${number}.png`;
   dice.classList.remove('hidden');
   if (number == 1) {
     curPlayerScore = 0;
